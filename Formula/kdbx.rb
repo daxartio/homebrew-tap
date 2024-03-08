@@ -1,24 +1,24 @@
 class Kdbx < Formula
   desc "A secure hole for your passwords (Keepass CLI)."
   homepage "https://github.com/daxartio/kdbx"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   if OS.mac?
     if Hardware::CPU.intel?
-      url "https://github.com/daxartio/kdbx/releases/download/0.8.0/kdbx-0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "057e4f3fd8acf077f5c4c42dcc12bd5d061f8f67b5c1bb15cb9a3ad12fec5bf3"
+      url "https://github.com/daxartio/kdbx/releases/download/0.9.0/kdbx-0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c73d951440c9d45be42a0a2f460d744bc1eca2a2e7656d502a69b163e8f6a54c"
     elsif Hardware::CPU.arm?
-      url "https://github.com/daxartio/kdbx/releases/download/0.8.0/kdbx-0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4ed97c29bc0eb3c204d77edc82c99b29b6bb424d1fa27b618d4fb6e11d6210cb"
+      url "https://github.com/daxartio/kdbx/releases/download/0.9.0/kdbx-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "9b57b8e235c44a23e7c397d5631c44cfa8e8be1248a2cccd688c9feee6cdb96a"
     end
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/daxartio/kdbx/releases/download/0.8.0/kdbx-0.8.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "67291e4f332f7a00010860bc86c53c7c0fc5f2e60550d9cdab585f89e9cf2786"
+      url "https://github.com/daxartio/kdbx/releases/download/0.9.0/kdbx-0.9.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "703b533c7333b8a27b790187b0cd3992de65e3a270c29706c96b899fa49a6dad"
     elsif Hardware::CPU.arm?
-      url "https://github.com/daxartio/kdbx/releases/download/0.8.0/kdbx-0.8.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f9b814694fbe3b7b632dc8b2493909cb609e79c52667962deed65091afa0e288"
+      url "https://github.com/daxartio/kdbx/releases/download/0.9.0/kdbx-0.9.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f17823270620d08a967d21d64ae7189822ca7a0ec7e3953f6ccacfe7761a4451"
     end
   end
 
